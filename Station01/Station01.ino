@@ -13,7 +13,7 @@ const uint16_t this_node = 01;   // Address of our node in Octal format ( 04,031
 const uint16_t master00 = 00;    // Address of the other node in Octal format
 
 typedef struct {
-  float temp, hA, hS;
+  int temp, hA, hS;
   int ID = (int) this_node;
 }
 st;

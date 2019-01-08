@@ -22,8 +22,7 @@ byte C[8] = { B00100, B01010, B00100, B00000, B00000, B00000, B00000, B00000 };
 
 
 typedef struct {
-  float temp, hA, hS;
-  int ID;
+  int temp, hA, hS, ID;
 }
 st;
 st incomingData;
