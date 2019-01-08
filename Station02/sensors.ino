@@ -1,7 +1,7 @@
 void getDataDTH11()
 {
-  station.temp = (float) dht.readTemperature();  // Read the temperature in degrees Celsius
-  station.hA = (float) dht.readHumidity();  // Read relative humidity
+  station.temp = dht.readTemperature();  // Read the temperature in degrees Celsius
+  station.hA = dht.readHumidity();  // Read relative humidity
 }
 
 

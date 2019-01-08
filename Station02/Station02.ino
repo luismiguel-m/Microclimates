@@ -31,7 +31,7 @@ void setup() {
   SPI.begin();
 
   radio.begin();
-  network.begin(78, this_node); //(channel, node address)
+  network.begin(78, this_node);  //(channel, node address)
   radio.setPALevel(RF24_PA_MAX);
 
   dht.begin();
